@@ -26,7 +26,7 @@ def assign_rooms(array)
   #binding.pry
 end
 
-def printer(attendees)
+def printer(batch_badge_creator,assign_rooms)
   batch_badge_creator(array_of_names)
   assign_rooms(array)
   counter = 0
