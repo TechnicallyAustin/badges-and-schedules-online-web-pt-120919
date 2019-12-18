@@ -29,10 +29,12 @@ end
 def printer(attendees)
   batch_badge_creator(array_of_names)
   assign_rooms(array)
-  attendees = [new_badge,next_arr]
-  puts attendees
-  
-  
+  counter = 0
+  new_badge.each do |output|
+    puts new_badge[counter]
+    puts next_arr[counter]
+    counter += 1
+  end
   
   binding.pry
 end
